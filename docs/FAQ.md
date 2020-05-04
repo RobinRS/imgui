@@ -461,7 +461,7 @@ backslash \ within a string literal, you need to write it double backslash "\\":
 
 ```c
 io.Fonts->AddFontFromFileTTF("MyFolder\MyFont.ttf", size);  // WRONG (you are escaping the M here!)
-io.Fonts->AddFontFromFileTTF("MyFolder\\MyFont.ttf", size;  // CORRECT
+io.Fonts->AddFontFromFileTTF("MyFolder\\MyFont.ttf", size);  // CORRECT
 io.Fonts->AddFontFromFileTTF("MyFolder/MyFont.ttf", size);  // ALSO CORRECT
 ```
 
